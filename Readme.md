@@ -21,3 +21,13 @@ This is a Twitter clone built using Django. It allows users to post tweets, edit
 - Hashtags are searchable and clickable within tweets.
 ### Like Posts
 - Users can like posts to show their appreciation or interest.
+
+## Installation
+1. Clone the repository: `https://github.com/MubarekHussen/tweet_clone_with_django`
+2. Create a virtual environment and activate it.
+3. Install the required packages: `pip install -r requirements.txt`
+4. Migrate the database: `python manage.py migrate`
+5. Run the development server: `python manage.py runserver`
+
+## Usage
+Once the server is running, open your browser and go to `http://127.0.0.1:8000/` to access the application. You can register a new user account, then login to post tweets, edit your profile, and like and follow other users.
